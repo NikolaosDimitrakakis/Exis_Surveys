@@ -66,7 +66,7 @@ LengthofServiceOverall. Overall Length of Service at Institute (in years): The l
 
 3. Prepare Data
 
-Here we are at the stage where we need to prepare our data to answer our questions. We have replaced the Not stated and - values with Nan values, and drop all the unneccessary columns from doth data frames, to have more clean dataframes. We have changed columns names from uppercase to lower, remove whitespace from the end of the strings, replace space with _ and rename columns name from tafe_survey_updated. This will help us to work with ease on both dataframes. We have cleaned the date columns in both dataframes. We have add new column, we have noticed that the tafe_resignations dataframe already contains a "service" column, which we renamed to institute_service. To analyze both surveys together, we'll have to create a corresponding institute_service column in dete_resignations. And finnaly compined our datasets.
+Here we are at the stage where we need to prepare our data to answer our questions. We have replaced the Not stated and - values with Nan values, and drop all the unnecessary columns from doth data frames, to have more clean data frames. We have changed columns names from uppercase to lower, remove whitespace from the end of the strings, replace space with _ and rename columns name from tafe_survey_updated. This will help us to work with ease on both data frames. We have cleaned the date columns in both data frames. We have added a new column, we have noticed that the tafe_resignations data frame already contains a "service" column, which we renamed to institute_service. To analyze both surveys together, we'll have to create a corresponding institute_service column in dete_resignations. And finally combined our datasets.
 
 4. Model Data
 
