@@ -16,7 +16,7 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested to work work with exit surveys from employees of the Department of Education, Training and Employment (DETE) and the Technical and Further Education (TAFE) institute in Queensland, Australia, to understand:
+For this project, I was interestested to work with exit surveys from employees of the Department of Education, Training and Employment (DETE) and the Technical and Further Education (TAFE) institute in Queensland, Australia, to understand:
 
 1. Are employees who only worked for the institutes for a short period of time resigning due to some kind of dissatisfaction? What about employees who have been there longer?
 2. Are younger employees resigning due to some kind of dissatisfaction? What about older employees?
@@ -29,7 +29,8 @@ There is 1 notebooks available here with work related to the above questions. Th
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://nikdimi.medium.com/what-can-we-found-from-the-boston-airbnb-dataset-f2507e75b57c).
+From the initial analysis above, we can tentatively conclude that employees with 7 or more years of service are more likely to resign due to some kind of dissatisfaction with the job than employees with less than 7 years of service. However, we need to handle the rest of the missing data to finalize our analysis.
+As we can see from the chart for 2007 and 2008 there is no data. The year with the highest number of resignations is in 2012 followed by 2013. And with the least resignations are the years 2006 and 2009..
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
